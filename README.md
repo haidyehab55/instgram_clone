@@ -1,8 +1,8 @@
 # instgram_clone
 
-##A completely Responsive Instagram App- Works on Android, iOS & Web!
+## A completely Responsive Instagram App- Works on Android, iOS & Web!
 
-#Features
+# Features
  - Responsive Instagram UI
  - Email & Password Authentication
  - Share Posts with Caption
