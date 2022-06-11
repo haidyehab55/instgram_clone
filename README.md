@@ -1,6 +1,6 @@
 # instgram_clone
 
-## A completely Responsive Instagram App- Works on Android, iOS & Web!
+### A completely Responsive Instagram App- Works on Android, iOS & Web!
 
 # Features
  - Responsive Instagram UI
@@ -13,3 +13,7 @@
  - Display User Posts, Followers & Following
  - EVERYTHING REAL TIME
  - Sign Out
+
+
+![image](https://user-images.githubusercontent.com/68606147/173187097-b895665e-3fec-4910-8388-13650a763185.png)
+
