@@ -1,4 +1,4 @@
-# instgram_clone
+# Instgram_clone
 
 ### A completely Responsive Instagram App- Works on Android, iOS & Web!
 
