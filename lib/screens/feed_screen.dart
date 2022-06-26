@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:instgram_clone/resources/auth_methods.dart';
 import 'package:instgram_clone/utils/colors.dart';
 import 'package:instgram_clone/widgets/post_card.dart';
 
@@ -12,6 +13,12 @@ class FeedScreen extends StatefulWidget {
 }
 
 class _FeedScreenState extends State<FeedScreen> {
+
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   AuthMethods().signOut();
+  // }
   @override
   Widget build(BuildContext context) {
     return Scaffold(

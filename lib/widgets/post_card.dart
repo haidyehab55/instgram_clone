@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:instgram_clone/providers/user_provider.dart';
 import 'package:instgram_clone/resources/firestore_methods.dart';
 import 'package:instgram_clone/screens/comments_screen.dart';
+import 'package:instgram_clone/screens/report_screen.dart';
+import 'package:instgram_clone/screens/review.dart';
+import 'package:instgram_clone/screens/reviews.dart';
 import 'package:instgram_clone/settings.dart';
 import 'package:instgram_clone/utils/colors.dart';
 import 'package:instgram_clone/widgets/like_animation.dart';
@@ -196,9 +199,11 @@ class _PostCardState extends State<PostCard> {
                 onPressed: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => CommentsScreen(
-                        snap: widget.snap,
-                      ),
+                      builder: (context) =>
+                          ReviewPage(snap: widget.snap),
+                      //     CommentsScreen(
+                      //    snap: widget.snap,
+                      // ),
                     ),
                   );
                 },
@@ -207,7 +212,14 @@ class _PostCardState extends State<PostCard> {
                 ),
               ),
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(
+                      builder: (context) =>
+                      ReportPage(snap: widget.snap),
+                      ),
+                  );
+                },
                 icon: const Icon(
                   Icons.send,
                 ),

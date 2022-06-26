@@ -5,6 +5,8 @@ import 'package:instgram_clone/providers/user_provider.dart';
 import 'package:instgram_clone/responsive/mobile_screen_layout.dart';
 import 'package:instgram_clone/responsive/web_screen_layout.dart';
 import 'package:instgram_clone/screens/comments_screen.dart';
+import 'package:instgram_clone/screens/review.dart';
+import 'package:instgram_clone/screens/reviews.dart';
 import 'utils/colors.dart';
 import 'responsive/responsive_layout_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
